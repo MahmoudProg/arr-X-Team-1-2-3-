@@ -3,7 +3,7 @@ if (screen.width > 500) {
         document.body.style.background = 'rgb(120,10,10)'; 
 }else{
 
-    document.body.style.background='rgb(150,10,10)';
+   
     } 
 
 function Btn_Alert_1(){ 
