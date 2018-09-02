@@ -66,6 +66,7 @@ button:hover{
 @media (max-width: 676px) {
     body{
         background-image: linear-gradient(to bottom right, red, yellow);
+        background-image: linear-gradient(to bottom right, red, green);
        
     }
     h1 {
