@@ -1,9 +1,10 @@
 
 if (screen.width > 500) { 
-    // if Mobile
-}else{
     // if Pc 
-    document.body.style.background = 'rgba(10,10,120,0.5)'; 
+    document.body.style.background = 'rgba(10,10,120,0.1)'; 
+}else{
+    // if Mobile 
+    document.body.style.background = 'rgba(10,10,120,0.1)'; 
 } 
 
 function Btn_Alert_1(){ 
@@ -22,13 +23,8 @@ function Btn_Alert_3(){
 
 
 document.getElementById("Click_1").onclick = function() {
-    
-    if (screen.width > 500) { 
-        // if Mobile
-        document.body.style.background = 'rgba(0,0,0,0.0)';
-    }else{
-        // if Pc 
-        document.body.style.background = 'rgba(10,10,120,0.5)'; 
-    } 
-    
+       
+}
+document.getElementById("Click_2").onclick = function() {
+   
 }
